@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
-    <event name="sales_order_place_before">
-      <observer name="YepPay_ObserverBeforeSalesOrderPlace" instance="Yep\Pay\Observer\ObserverBeforeSalesOrderPlace"/>
-   </event>
-    <event name="yeppay_payment_verify_after">
-        <observer name="YepPay_ObserverAfterPaymentVerify" instance="Yep\Pay\Observer\ObserverAfterPaymentVerify" />
-    </event>
-</config>
