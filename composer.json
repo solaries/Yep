@@ -1,5 +1,5 @@
 {
-    "name": "yep_pay/pay",
+    "name": "yep_pay/yeppay-magento2-module",
     "version": "1.0.0",
     "description": "Yep! Pay Magento2 Module using \\Magento\\Payment\\Model\\Method\\AbstractMethod",
     
