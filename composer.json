@@ -1,0 +1,26 @@
+{
+    "name": "yep_pay/yeppay-magento2-module",
+    "description": "Yep! Pay Magento2 Module using \\Magento\\Payment\\Model\\Method\\AbstractMethod",
+    
+    "require": {
+    },
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "email": "solarinolakunle@gmail.com",
+            "name": "Solarin Olakunle"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Yep\\Pay\\": ""
+        }
+    }
+}
